@@ -1,0 +1,91 @@
+@media screen and (min-width: 1440px) {
+    .gfg-div {
+        background-color: hsl(30, 54%, 90%);
+        
+    }
+}
+
+@media screen
+    and (max-device-width: 375px) {
+    .gfg-div {
+        background-color: hsl(30, 54%, 90%);
+    }
+}
+body{
+    background-color:hsl(30, 54%, 90%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.page{
+    background-color: hsl(330, 100%, 98%);
+    border-color: black;
+    padding: 25px;
+    border-radius: 30px;
+    margin:50px;
+}
+.head{
+    color:hsl(24, 5%, 18%);
+}
+.pic{
+    width:100%;
+    height:50vh;
+}
+
+.pre{
+    margin-left:20px;
+    padding:20px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+h2{
+    font-family: Serif;
+    color: hsl(14, 45%, 36%);
+}
+h4{
+    color:hsl(332, 51%, 32%);
+}
+
+b{
+    color:hsl(30, 10%, 34%);
+}
+li::marker{
+    color:hsl(14, 45%, 36%);
+}
+li{
+    padding-left:20px;
+}
+p{
+    size: 16px;
+}
+
+hr{
+    color:hsl(30, 10%, 34%);
+}
+
+.co{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.co p {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+
+}
+
+.h{
+    color: hsl(14, 45%, 36%);
+    display: flex;
+    align-items: center;
+    width: 500px;
+    right:0%;
+
+}
+
